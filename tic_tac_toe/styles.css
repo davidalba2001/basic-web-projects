@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(24, 23, 71);
+}
+
+#top-bar {
+    width: 500px;
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 5px 5px 0 0;
+    border: 2px solid black;
+}
+
+#top-bar h1 {
+    margin: auto;
+    color: black;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9mm;
+    font-weight: bold; /* Esto hace que el texto esté en negrita */
+}
+
+#top-bar button {
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small
+}
+
+#controls-container {
+    padding: 5px;
+    border-top: 2px solid black;
+}
+
+
+
+#game-container {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 100px auto;
+    background-color: lightgrey;
+    border-radius: 5px;
+    width: 525px;
+    height: 575px;
+}
+
+#grid-container {
+    margin: auto;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    grid-template-rows: repeat(3, 160px);
+    gap: 10px;
+
+}
+
+.cell {
+    cursor: pointer;
+    background-color: rgb(9, 61, 44);
+    border: 5px solid lightcyan;
+    font-size: 9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+}
